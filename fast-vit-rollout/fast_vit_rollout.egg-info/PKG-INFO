@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: fast-vit-rollout
-Version: 0.1.1
+Version: 0.1.2
 Summary: A robust, plug-and-play Attention Rollout explainer for Vision Transformers (timm & Hugging Face).
 Author-email: Souradeep Dutta <souradeep2233@gmail.com>
 Project-URL: Homepage, https://github.com/Souradeep2233/fast-vit-rollout
@@ -17,6 +17,8 @@ Requires-Dist: opencv-python
 # Fast ViT Rollout 🚀
 
 A robust, plug-and-play Attention Rollout extractor for Vision Transformers. Works seamlessly out of the box with `timm` and Hugging Face backbones.
+
+![Output Demonstration](final_test.jpg)
 
 ### Why use this?
 Most existing Attention Rollout scripts break on modern architectures. This package natively handles:
