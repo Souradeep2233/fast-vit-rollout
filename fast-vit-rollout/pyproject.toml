@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fast-vit-rollout"
+version = "0.1.1"
+authors = [
+  { name="Souradeep Dutta", email="souradeep2233@gmail.com" },
+]
+description = "A robust, plug-and-play Attention Rollout explainer for Vision Transformers (timm & Hugging Face)."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "torch>=2.0.0",
+    "numpy",
+    "opencv-python",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Souradeep2233/fast-vit-rollout"
