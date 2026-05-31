@@ -2,6 +2,8 @@
 
 A robust, plug-and-play Attention Rollout extractor for Vision Transformers. Works seamlessly out of the box with `timm` and Hugging Face backbones.
 
+![alt text](final_test.jpg)
+
 ### Why use this?
 Most existing Attention Rollout scripts break on modern architectures. This package natively handles:
 * **Flash Attention (SDPA):** Bypasses PyTorch 2.0+ fused attention issues.
